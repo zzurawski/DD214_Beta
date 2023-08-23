@@ -1,0 +1,60 @@
+body {
+  background-color: #bbcbce;
+}
+
+#homepage {
+  color: rgb(63, 0, 0);
+  width: 82%;
+  max-height: max-content;
+  backdrop-filter: blur(1px);
+  padding-left: 20px;
+  font-size: larger;
+}
+
+h2.group {
+  color: #000000;
+  font-weight: bold;
+  font-size: 32px;
+  backdrop-filter: blur(1px);
+  text-align: center;
+  margin-top: 40px;
+  border: 1px solid #010386;
+  border-radius: 100px;
+  box-shadow: -5px 10px 15px black;
+}
+
+.ui.card {
+  text-align: center;
+  outline: 2px solid rgb(211, 211, 211);
+  height: fit-content;
+  box-shadow: -5px 10px 15px black;
+}
+
+.article-body {
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  max-height: 460px;
+}
+
+.ui.card.sk8card:hover {
+  box-shadow: inset 200px 0 100px 0 #ffffff;
+  transition: ease-out 0.6s;
+}
+
+h3.loading2 {
+  text-align: center;
+}
+
+.ui.card.button {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: antiquewhite;
+}
+
+.image {
+  float: left;
+  max-width: 20%;
+  min-height: fit-content;
+}

@@ -1,0 +1,25 @@
+div.footer-container {
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 82%;
+    box-shadow: 5px -10px 15px black;
+}
+
+h3.title-contact {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+span.contact-details {
+    list-style: none;
+    font-size: 16px;
+    word-spacing: 5px;
+}
+
+li.name {
+    font-size: larger;
+    font-weight: bold;
+}

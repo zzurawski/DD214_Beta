@@ -1,0 +1,23 @@
+h2.newSkate {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 36px;
+  font-family: 'Bangers';
+}
+
+#submit{
+  outline-color: black;
+  background-color: rgb(255, 239, 218);
+}
+
+#submit:hover{
+  cursor: pointer;
+  background-color: black;
+  color: #e3e3e3;
+  outline-offset: 3px;
+}
+
+#new{
+  background-color: #e3e3e3;
+  margin: 50px;
+}

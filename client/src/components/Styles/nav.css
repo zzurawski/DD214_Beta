@@ -1,0 +1,96 @@
+.ui.menu {
+  background: #7897c0;
+  z-index: 1030;
+  box-shadow: 10px 10px 15px rgb(54, 98, 163);
+}
+
+#home{
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #171c31;
+  transition: ease-out 0.5s;
+}
+
+#home:hover{
+  box-shadow: inset 200px 0 100px 0 #1a263b;
+  color: #ffffff;
+}
+
+#articles{
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #171c31;
+  transition: ease-out 0.5s;
+}
+
+#articles:hover{
+  box-shadow: inset 200px 0 100px 0 #1a263b;
+  color: #ffffff;
+}
+
+#about-us{
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #311719;
+  transition: ease-out 0.5s;
+}
+
+#about-us:hover{
+  box-shadow: inset 200px 0 100px 0 #1a263b;;
+  color: #ffffff;
+}
+
+#newspot{
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #311719;
+  transition: ease-out 0.5s;
+}
+
+#newspot:hover{
+  box-shadow: inset 200px 0 100px 0 #1a263b;;
+  color: #ffffff;
+}
+
+#logout{
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #311719;
+  transition: ease-out 0.5s;
+}
+
+#logout:hover{
+  box-shadow: inset 200px 0 100px 0 #1a263b;;
+  color: #ffffff;
+}
+
+#login{
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #311719;
+  transition: ease-out 0.5s;
+}
+
+#login:hover{
+  box-shadow: inset 200px 0 100px 0 #1a263b;;
+  color: #ffffff;
+}
+
+#sponsors{
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #1a263b;;
+  transition: ease-out 0.5s;
+}
+
+#sponsors:hover{
+  box-shadow: inset 200px 0 100px 0 #1a263b;;
+  color: #ffffff;
+}

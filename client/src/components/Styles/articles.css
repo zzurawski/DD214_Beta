@@ -1,0 +1,43 @@
+.ui.card.articleCard1 {
+    top: 2.5%;
+    max-height: fit-content;
+    font-size: larger;
+}
+
+.article-body1 {
+    text-align: left;
+    border-top: 1px dashed black;
+    padding-top: 1%;
+}
+
+
+.image1 {
+    float: left;
+    max-height: 8%;
+    max-width: 15%;
+    margin: 1% 1% 1% 1%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 15px black;
+}
+
+.image2 {
+    float: right;
+    max-height: 10%;
+    max-width: 20%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 15px black;
+    margin: 1% 1% 1% 1%;
+}
+
+.image3 {
+    float: left;
+    max-width: 15%;
+    max-height: 20%;
+    margin: 1% 1% 1% 1%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 15px black;
+}
+
+.fb {
+    margin-top: 100%;
+}

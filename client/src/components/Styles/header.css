@@ -1,0 +1,34 @@
+.skateheader {
+  background-color: #34446e;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.skate1 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 48px;
+  font-stretch: ultra-expanded;
+  text-decoration: underline;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.skate2 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0px;
+  font-family: 'Montserrat';
+}
+
+.sm-links {
+  float: right;
+  margin-right: 2%;
+  max-height: 2%;
+  max-width: 2%;
+}
+
+.fb {
+  mix-blend-mode: multiply;
+  
+}
