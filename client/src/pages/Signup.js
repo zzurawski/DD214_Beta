@@ -55,17 +55,55 @@ export default function SignUpPage() {
         </p>
       </div>
       <div className="card-container">
-            <Card.Group className="centered" itemsPerRow={2} key={sponsor.id}>
+            <Card.Group className="centered" itemsPerRow={3} key={sponsor.id}>
               <Card
                 className="sponsorcard"
                 style={{
                   borderRadius: "10px",
                   marginTop: "40px",
+                  
                 }}
               >
                 <Card.Content>
+                  <a href="https://tri-c.edu/veterans/">
+                  <img className="sponsorimage" alt="tri-c" src={require("../components/Map/tri-c.jpg")} />
                   <Card.Header>Cuyahoga Community College</Card.Header>
-                  <Card.Description>image here</Card.Description>
+                  <Card.Description>Connecting Veterans to Further their Education</Card.Description>
+                  </a>
+                </Card.Content>
+              </Card>
+
+              <Card
+                className="sponsorcard"
+                style={{
+                  borderRadius: "10px",
+                  marginTop: "40px",
+                  backgroundColor: "black",
+                }}
+              >
+                <Card.Content>
+                  <a href="https://jvcocc.org/">
+                  <img className="sponsorimage" alt="tri-c" src={require("../components/Map/JVCOCC.png")} />
+                  <Card.Header>Joint Veterans Council</Card.Header>
+                  <Card.Description>Unifying Veterans and Veterans Organizations to Accomplish Common Goals</Card.Description>
+                  </a>
+                </Card.Content>
+              </Card>
+
+              <Card
+                className="sponsorcard"
+                style={{
+                  borderRadius: "10px",
+                  marginTop: "40px",
+                  
+                }}
+              >
+                <Card.Content>
+                  <a href="https://cuyahogavets.org">
+                  <img className="sponsorimage" alt="tri-c" src={require("../components/Map/VSC-logo.png")} />
+                  <Card.Header>The Veterans Service Commission</Card.Header>
+                  <Card.Description>Provide world class advocacy, assistance, and support to Veterans and their families</Card.Description>
+                  </a>
                 </Card.Content>
               </Card>
             </Card.Group>

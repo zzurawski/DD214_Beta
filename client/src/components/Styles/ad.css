@@ -3,7 +3,6 @@ div.ad-container {
     float: right;
     margin-top: 2.5%;
     width: 15%;
-    position: sticky;
     text-align: center;
     border-radius: 5px;
     box-shadow: -10px 5px 15px rgb(1, 67, 94);
@@ -16,10 +15,14 @@ div.ad1 {
 
 div.ad2 {
     background-color: white;
-    height: 70%;
+    min-height: max-content;
 }
 
 img {
     width: 100%;
     height: auto;
+}
+
+div.ad2 + div.ad2 {
+    margin-top: 10%;
 }

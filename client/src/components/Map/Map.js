@@ -26,9 +26,11 @@ export default function AdSpace() {
             'baby+monkey+hd+wallpaper-3092427377.jpg'
         ];*/
 
+  
+
     return (
         <div className="ad-container">
-          <div className="ad1"  >
+          <div className="ad2"  >
             <a href="https://livingincle.com">
             <img alt="chris" src={require('./NEOHOMEs.png')} />
             </a>
@@ -40,6 +42,11 @@ export default function AdSpace() {
           <div className="ad2">
             <a href="https://printmuse.us/">
             <img alt="colton" src={require('./printmuse.png')} />
+            </a>
+          </div>
+          <div className="ad2">
+            <a href="https://jvcocc.org">
+              <img alt="jvcocc" src={require('./JVCOCC.png')} />
             </a>
           </div>
         </div>
