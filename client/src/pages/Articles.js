@@ -89,6 +89,7 @@ export default function Articles() {
                         quote={'I found this to be interesting regarding our local veterans! Read more on DD214Chronicle.com'}
                         hashtag="#DD214Chronicle"
                         >
+                            
                             <FacebookIcon size={32} round className="fb" />
                         </FacebookShareButton>
                     </Card.Content>

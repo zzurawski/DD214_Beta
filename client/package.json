@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "name": "dd214chronicle",
+  "homepage": "https://www.dd214chronicle.com",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^5.2.3",
     "graphql": "^15.4.0",
+    "html-webpack-plugin": "^5.5.3",
     "jsonwebtoken": "^9.0.0",
     "jwt-decode": "^2.2.0",
     "react": "^16.13.1",
@@ -19,7 +21,10 @@
     "react-scripts": "^5.0.1",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "webpack": "^5.88.2",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-manifest-plugin": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

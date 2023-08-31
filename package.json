@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "react-router-hash-link": "^2.4.3",
-    "react-share": "^4.4.1"
+    "react-share": "^4.4.1",
+    "webpack": "^5.88.2"
   }
 }
