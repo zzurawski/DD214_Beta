@@ -4,7 +4,7 @@ body {
 }
 
 #homepage {
-  color: rgb(63, 0, 0);
+  color: rgb(255, 255, 255);
   width: 82%;
   max-height: max-content;
   backdrop-filter: blur(1px);
@@ -58,4 +58,25 @@ h3.loading2 {
   float: left;
   max-width: 20%;
   min-height: fit-content;
+}
+
+.at-ease-body {
+  text-align: center;
+  color: black;
+  background-color: #ffffff;
+  outline: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  margin-top: 2%;
+  padding: 10px 10px 10px 10px;
+  min-height: max-content;
+  font-size: 24px;
+  overflow: hidden;
+  
+}
+
+.don {
+  height: 15%;
+  width: 10%;
+  float: left;
+  box-shadow: 5px 10px 15px black;
 }

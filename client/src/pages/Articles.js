@@ -44,12 +44,13 @@ export default function Articles() {
 
                     </Card.Description>
                         <FacebookShareButton
-                        url={'https://www.example.com'}
+                        url={'https://www.dd214chronicle.com'}
                         quote={'I found this to be interesting regarding our local veterans! Read more on DD214Chronicle.com'}
                         hashtag="#DD214Chronicle"
                         >
                             <FacebookIcon size={32} round className="fb" />
                         </FacebookShareButton>
+                        <p className="fb-comment">Let us know your thoughts here</p>
                     </Card.Content>
                     </Card>
 
@@ -85,13 +86,14 @@ export default function Articles() {
 
                     </Card.Description>
                     <FacebookShareButton
-                        url={'https://www.example.com'}
+                        url={'https://www.dd214chronicle.com'}
                         quote={'I found this to be interesting regarding our local veterans! Read more on DD214Chronicle.com'}
                         hashtag="#DD214Chronicle"
                         >
-                            
                             <FacebookIcon size={32} round className="fb" />
+                            
                         </FacebookShareButton>
+                        <p className="fb-comment">Let us know your thoughts here</p>
                     </Card.Content>
                     </Card>
                    
@@ -132,12 +134,13 @@ export default function Articles() {
 
                     </Card.Description>
                     <FacebookShareButton
-                        url={'https://www.example.com'}
+                        url={'https://www.dd214chronicle.com'}
                         quote={'I found this to be interesting regarding our local veterans! Read more on DD214Chronicle.com'}
                         hashtag="#DD214Chronicle"
                         >
                             <FacebookIcon size={32} round className="fb" />
                         </FacebookShareButton>
+                        <p className="fb-comment">Let us know your thoughts here</p>
                     </Card.Content>
                     </Card>
                     
@@ -168,12 +171,13 @@ export default function Articles() {
                     <br></br><br></br>Forty years after they flew side-by-side in Korea, Lazarus maintained that the two men shared a connection unbroken by time. Glenn’s description said it best: “When you fly in combat with somebody, there’s a bond that runs so deep you cannot describe it.” 
                     </Card.Description>
                     <FacebookShareButton
-                        url={'https://www.example.com'}
+                        url={'https://www.dd214chronicle.com'}
                         quote={'I found this to be interesting regarding our local veterans! Read more on DD214Chronicle.com'}
                         hashtag="#DD214Chronicle"
                         >
                             <FacebookIcon size={32} round className="fb" />
                         </FacebookShareButton>
+                        <p className="fb-comment">Let us know your thoughts here</p>
                     </Card.Content>
                     </Card>
 
@@ -205,12 +209,13 @@ export default function Articles() {
 
                     </Card.Description>
                     <FacebookShareButton
-                        url={'https://www.example.com'}
+                        url={'https://www.dd214chronicle.com'}
                         quote={'I found this to be interesting regarding our local veterans! Read more on DD214Chronicle.com'}
                         hashtag="#DD214Chronicle"
                         >
                             <FacebookIcon size={32} round className="fb" />
                         </FacebookShareButton>
+                        <p className="fb-comment">Let us know your thoughts here</p>
                     </Card.Content>
                     </Card>
 
@@ -241,12 +246,13 @@ export default function Articles() {
                         <br></br><br></br>SFA Chapter XXXV will conduct a similar event next year which will include different shooting events with less physical activities in the morning and more challenging and physical events in the afternoon. This allows the event to be more inclusive and social with our community. There will also be a cookout and a campout at the conclusion of the festivities. Stay tuned. 
                     </Card.Description>
                     <FacebookShareButton
-                        url={'https://www.example.com'}
+                        url={'https://www.dd214chronicle.com'}
                         quote={'I found this to be interesting regarding our local veterans! Read more on DD214Chronicle.com'}
                         hashtag="#DD214Chronicle"
                         >
                             <FacebookIcon size={32} round className="fb" />
                         </FacebookShareButton>
+                        <p className="fb-comment">Let us know your thoughts here</p>
                     </Card.Content>
                     </Card>
                 </Card.Group>
