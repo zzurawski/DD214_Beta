@@ -53,7 +53,7 @@ function App() {
           <Route path={"/skateSpots/:skateSpotId"} element={<SingleSkate />} />
           <Route path={"/newspot"} element={<NewSkateSpot />} />
           <Route path={"/login"} element={<Login />} />
-          <Route path={"/signup"} element={<Sign />} />
+          <Route path={"/resources"} element={<Sign />} />
           <Route path={"*"} element={<h1>Nothing here</h1>} />
         </Routes>
         <Footer />

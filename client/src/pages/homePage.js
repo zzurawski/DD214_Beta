@@ -18,7 +18,7 @@ export default function HomePage() {
               better. Our new collaborative brings new initiatives with the Joint Veterans Council of Cuyahoga County, Cuyahoga Community College (Tri-C), the City of Cleveland and many others.
           </p>
       </div>
-      <h2 className="group">--What's Happening in the Community--</h2>
+      <h2 className="group">--LOCAL VETERAN NEWS--</h2>
         <div className="card-container">
           <Card.Group className="centered" itemsPerRow={2}>
               <Card
@@ -149,6 +149,8 @@ export default function HomePage() {
                 </Card.Content>
               </Card>
             </Card.Group>
+            <h2 className="group"> --PAST ISSUES OF THE DD 214 CHRONICLE--</h2>
+                <a href="https://drive.google.com/drive/folders/1cQwYkRKDeLX3wehA378V9-ISrb4odzNQ"><p id="oldarticles">CLICK HERE TO ACCESS</p></a>
         </div>
     </div>
   );

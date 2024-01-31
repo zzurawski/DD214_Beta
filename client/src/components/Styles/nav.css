@@ -1,7 +1,7 @@
 .ui.menu {
   background: #7897c0;
   z-index: 1030;
-  box-shadow: 10px 10px 15px rgb(54, 98, 163);
+  box-shadow: 1px 1px 15px rgb(54, 98, 163);
 }
 
 #home{

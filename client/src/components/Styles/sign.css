@@ -17,14 +17,10 @@ p.high {
   text-decoration: underline;
 }
 
-.card.sponsorcard {
+.sponsorcard {
   box-shadow: inset 0 0 0 0 rgb(0, 0, 0);
   transition: ease-out 3s;
   cursor: pointer;
   max-height: 20%;
+  font-size: large;
 }
-
-img {
-  max-height: 10%;
-}
-

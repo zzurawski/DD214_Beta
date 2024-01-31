@@ -13,7 +13,7 @@ export default function Navbar() {
     <div className="nav">
       <Menu className="nav" fluid widths={4}>
         <Menu.Item
-          name="Home"
+          name="HOME"
           active={activeItem === "Home"}
           onClick={handleItemClick}
           as={Link}
@@ -21,7 +21,7 @@ export default function Navbar() {
           id="home"
         />
         <Menu.Item
-          name="Articles"
+          name="ARTICLES"
           active={activeItem === "Articles"}
           onClick={handleItemClick}
           as={Link}
@@ -56,7 +56,7 @@ export default function Navbar() {
         ) : (
           <>
             <Menu.Item
-              name="About Us"
+              name="ABOUT US"
               active={activeItem === "login"}
               onClick={handleItemClick}
               as={Link}
@@ -64,11 +64,11 @@ export default function Navbar() {
               id="about-us"
             />
             <Menu.Item
-              name="Sponsors"
+              name="SUPPORTERS"
               active={activeItem === "signup"}
               onClick={handleItemClick}
               as={Link}
-              to="/signup"
+              to="/resources"
               id="sponsors"
             />
           </>

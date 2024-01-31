@@ -10,7 +10,7 @@
   margin-bottom: 0px;
   font-size: 48px;
   font-stretch: ultra-expanded;
-  text-decoration: underline;
+  letter-spacing: 2px;
   font-family:'Times New Roman', Times, serif;
 }
 
@@ -19,6 +19,7 @@
   text-align: center;
   margin-top: 0px;
   font-family: 'Montserrat';
+  font-style: italic;
 }
 
 .sm-links {
@@ -31,4 +32,5 @@
 .fb {
   mix-blend-mode: multiply;
   float: right;
+  width: 200%;
 }

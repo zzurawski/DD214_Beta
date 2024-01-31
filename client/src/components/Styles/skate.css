@@ -1,11 +1,17 @@
 body {
   background-color: #bbcbce;
   display: flex;
+  
+}
+
+html::-webkit-scrollbar{
+  width: 0;
 }
 
 #homepage {
   color: rgb(255, 255, 255);
-  width: 82%;
+  width: 90%;
+  margin: 0 5%;
   max-height: max-content;
   backdrop-filter: blur(1px);
   padding-left: 20px;
@@ -19,9 +25,7 @@ h2.group {
   backdrop-filter: blur(1px);
   text-align: center;
   margin-top: 40px;
-  border: 1px solid #010386;
-  border-radius: 100px;
-  box-shadow: -5px 10px 15px black;
+  letter-spacing: 4px;
 }
 
 .ui.card {
@@ -67,16 +71,27 @@ h3.loading2 {
   outline: 2px solid rgb(211, 211, 211);
   border-radius: 10px;
   margin-top: 2%;
-  padding: 10px 10px 10px 10px;
+  padding: 2% 5%;
   min-height: max-content;
-  font-size: 24px;
+  font-size: x-large;
   overflow: hidden;
   
 }
 
 .don {
-  height: 15%;
+  
   width: 10%;
   float: left;
-  box-shadow: 5px 10px 15px black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.658);
+}
+
+#oldarticles{
+  text-align: center;
+  font-size: xx-large;
+  background-color: whitesmoke;
+  width: 60%;
+  margin: 0 20%;
+  color: #000000;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
